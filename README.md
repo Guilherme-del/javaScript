@@ -3,7 +3,7 @@
 
 <p align = "center">
 <img width=300 height=200 src=Imgs/javascript-logo.png>                                  
-<img src=imgs/W3Schools-logo>
+<img width=300 height=200 src=imgs/W3Schools-logo.png>
 </p>                                  
                                   
                                   
