@@ -1,5 +1,4 @@
-
- @charset "UTF-8";
+@charset "UTF-8";
  
  :root { /* define variáveis no css */
     --azul: #1E90FF	;
@@ -7,8 +6,7 @@
 }
 
 * { /* reset css */
-    margin: 0;
-    padding: 0;
+    margin: 0px;
     box-sizing: border-box; /* limita os elementos à borda da caixa */
 }
 
@@ -37,13 +35,11 @@ header nav a:hover {
     color: #fff;
 }
 
-
-
-
 /*Elementos base */
 body {
     font-family: 'Arial', Times, serif;
-    color: var(--preta);    
+    color: var(--preta);
+    overflow: hidden;    
 }
 
 main .container {margin-top: 100px;
@@ -51,7 +47,7 @@ border: 1px solid black;
 box-shadow: 0px 0px 10px;
 padding: 20px; 
 margin: 20px; 
-height: 666px;}
+height: 500px;}
 
 .calculadora-peso, .calculadora-altura{
     width: 100%;      
@@ -60,26 +56,96 @@ height: 666px;}
     vertical-align: middle;
     height: 50px;
 } 
-
-.peso-slider , .altura-slider{
-   }
-
 .input-number{height: 30px;
 width: 90px;
 }
 
 
+/* footer padrão de propriedade Open source by: Guilherme-del */
+footer {background-color: var(--preta);        
+        padding-top: 8px;
+        margin-right: 0px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;    }
+
+textarea {
+    resize: none;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
 
 
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
 
-footer .media { 
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: lightgray;
-    text-align: center;
-    text-decoration: none;
-     /* alinha os elementos em linha */} 
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
 
-footer img{padding-top: 6px;}       
+.rounded-social-buttons .social-button.github {
+  background: #24292e;
+}
+
+.rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.fa-github:focus {
+  color: #24292e;
+  background: #fefefe;
+  border-color: #24292e;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
