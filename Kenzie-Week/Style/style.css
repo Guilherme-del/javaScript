@@ -1,0 +1,85 @@
+
+ @charset "UTF-8";
+ 
+ :root { /* define variáveis no css */
+    --azul: #1E90FF	;
+    --preta: #141414;
+}
+
+* { /* reset css */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* limita os elementos à borda da caixa */
+}
+
+header .container {
+    display: flex; /* alinha os elementos em linha */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /* separa o h1 do nav */
+    background-color: var(--preta);
+}
+
+header .logo {
+    color: var(--azul);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px; 
+}
+
+header nav a {
+    text-decoration: none; /* remove as linhas abaixo das palavras */
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+
+
+
+/*Elementos base */
+body {
+    font-family: 'Arial', Times, serif;
+    color: var(--preta);    
+}
+
+main .container {margin-top: 100px;
+border: 1px solid black;
+box-shadow: 0px 0px 10px;
+padding: 20px; 
+margin: 20px; 
+height: 666px;}
+
+.calculadora-peso, .calculadora-altura{
+    width: 100%;      
+    margin-bottom: 20px; 
+    padding: 20px; 
+    vertical-align: middle;
+    height: 50px;
+} 
+
+.peso-slider , .altura-slider{
+   }
+
+.input-number{height: 30px;
+width: 90px;
+}
+
+
+
+
+
+footer .media { 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    text-decoration: none;
+     /* alinha os elementos em linha */} 
+
+footer img{padding-top: 6px;}       
