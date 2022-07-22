@@ -24,24 +24,25 @@
 <h1 style="text-align: center;">Calcule seu Imc</h2>
 
 <form>
-<div class="calculadora-peso">
+<div class="calculaPeso">
 <p>Digite seu peso</p>
-<input class ="peso-slider" type="range" min="1" max="100"/>
-<input class="input-number" type="number"/>
+<input class ="pesoSlider" type="range" min="40" max="200" onchange="weightToDisplay(this.value)" />
+<span id="pesoToDisplay"> 0 kg</span>
 </div>
 
-
-<div class="calculadora-altura">
+<div class="calculaAltura">
 <p>Digite sua altura</p>
-<input class="altura-slider" type="range"/>
-<input class="input-number" type="number"/>
+<input class="alturaSlider" type="range" min="150" max="250" onchange="heightToDisplay(this.value)"/>
+<span id="tamanhoToDisplay">0 m</span>
+</div>
+<button type="submit" onClick="submitBtn(this.value)">Calcular</button>
+
+<div id="imgToDisplay">
 </div>
 
 </div>
 </form>
 </main>
-
-
 
 
 <footer>
@@ -56,3 +57,4 @@
 
 
 <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+<script defer src="./Script/script.js"></script>
