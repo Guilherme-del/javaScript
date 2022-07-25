@@ -1,4 +1,4 @@
 </p>
 <p align = "center">
-<img  src= https://github.com/Guilherme-del/Rest/blob/master/Img/giphy.gif >
+<img  src= https://kenzie.com.br/blog/wp-content/themes/kenzie/src/assets/img/footer-logo.png >
 <p>
