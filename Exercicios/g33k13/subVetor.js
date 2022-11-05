@@ -11,7 +11,7 @@ function maxSubArraySum(a) {
   var maxEndingHere = 0;
 
   for (let i = 0; i < a.length; i++) {
-    console.log(maxSoFar,maxEndingHere)
+   // console.log(maxSoFar,maxEndingHere)
     maxEndingHere = maxEndingHere + a[i];
     if (maxSoFar < maxEndingHere) { 
       maxSoFar = maxEndingHere;
@@ -26,4 +26,4 @@ function maxSubArraySum(a) {
 const a = [-2, -3, 4, -1, -2, 1, 3, -3];
 const result = maxSubArraySum(a);
 
-console.log(`maxArray = ${result}`);
+console.log(`maxSumFromArray = ${result}`);
