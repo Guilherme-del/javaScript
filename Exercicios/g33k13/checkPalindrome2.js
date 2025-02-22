@@ -13,6 +13,4 @@ function checkPalindrome(string) {
 }
 
 // call the function
-const value = checkPalindrome("madam");
-
-console.log(value);
+console.log(checkPalindrome("madam"));

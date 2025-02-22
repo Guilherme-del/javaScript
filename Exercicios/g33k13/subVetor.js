@@ -1,4 +1,6 @@
 /* 
+Kadane's Algorithm
+Write a
 JavaScript program to find maximum
 contiguous subarray
 
@@ -24,6 +26,4 @@ function maxSubArraySum(a) {
 }
 
 const a = [-2, -3, 4, -1, -2, 1, 3, -3];
-const result = maxSubArraySum(a);
-
-console.log(`maxSumFromArray = ${result}`);
+console.log(maxSubArraySum(a));
